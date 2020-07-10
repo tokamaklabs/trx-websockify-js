@@ -1,0 +1,28 @@
+{
+  "name": "trx-websockify-js",
+  "version": "1.0.0",
+  "description": "websockify was formerly named wsproxy and was part of the\r [noVNC](https://github.com/kanaka/noVNC) project.",
+  "homepage": "https://github.com/tokamaklabs/trx-websockify-js#readme",
+  "bugs": {
+    "url": "https://github.com/tokamaklabs/trx-websockify-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokamaklabs/trx-websockify-js.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "prepare": "cd websockify && npm install",
+    "start": "node websockify/websockify.js --web noVNC/ 8080 localhost:5900",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mime-types": "latest",
+    "optimist": "latest",
+    "ws": ">=0.4.27"
+  }
+}
