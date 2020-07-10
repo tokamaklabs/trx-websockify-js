@@ -1,6 +1,6 @@
 {
   "name": "trx-websockify-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "websockify was formerly named wsproxy and was part of the\r [noVNC](https://github.com/kanaka/noVNC) project.",
   "homepage": "https://github.com/tokamaklabs/trx-websockify-js#readme",
   "bugs": {
