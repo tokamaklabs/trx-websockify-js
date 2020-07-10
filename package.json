@@ -12,6 +12,7 @@
   },
   "license": "ISC",
   "author": "",
+  "bin": "websockify/websockify.js",
   "directories": {
     "doc": "docs"
   },
